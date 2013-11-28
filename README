@@ -1,0 +1,24 @@
+This module contains various functions to solve first order ordinary
+differential equations. For examples, see the docstring for the solve_ode
+method.
+
+To run the file use the following command in the SAGE shell.
+
+sage: runfile 'exercises_elem_ode_solver.sage'
+
+To run the file as a module, you need to preparse the module as a python file;
+i.e., use the command in a linux shell (NOT in the SAGE shell):
+
+$ sage --preparse exercises_elem_ode_solver.sage
+
+This will create a file exercises_elem_ode_solver.py which can then be imported
+as a module like in normal python. Then you are free to run the solve_ode
+method.
+
+Note that I have not included proper SAGE docstring formatting in this 
+module-docstring because I have not found a way to actually see this docstring
+in the SAGE command shell.
+
+Author: John Kluesner
+Date:   28 Nov, 2013
+Email:  stringman45@gmail.com
